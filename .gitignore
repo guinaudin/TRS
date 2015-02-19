@@ -1,8 +1,11 @@
 #Remove all class files
-*.class
+#*.class
+
+#Remove target folder
+target/
 
 #Remove pom.properties
-*/maven-archiver/pom.properties
+#*/maven-archiver/pom.properties
 
 #Remove SNAPSHOT.jar
-*/TRS-1.0-SNAPSHOT.jar
+#*/TRS-1.0-SNAPSHOT.jar
